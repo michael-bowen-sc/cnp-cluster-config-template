@@ -23,16 +23,6 @@ spec:
           ui:autofocus: true
           ui:options:
             rows: 5
-        namespace:
-          title: Namespace
-          type: string
-          description: Unique name of the tenant namespace
-          ui:autofocus: true
-        descriptiopn:
-          title: Description
-          type: string
-          description: Please describe the base config use case
-          ui:autofocus: true
     - title: Choose a location
       required:
         - repoUrl
