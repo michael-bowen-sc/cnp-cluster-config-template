@@ -14,26 +14,11 @@ spec:
     - title: Fill in required entries
       required:
         - name
-        - namespace
       properties:
         name:
           title: Name
           type: string
           description: Unique name of the tenant
-          ui:autofocus: true
-          ui:options:
-            rows: 5
-        namespace:
-          title: Namespace
-          type: string
-          description: Unique name of the tenant namespace
-          ui:autofocus: true
-          ui:options:
-            rows: 5
-        descriptiopn:
-          title: Description
-          type: string
-          description: Please describe the base config use case
           ui:autofocus: true
           ui:options:
             rows: 5
