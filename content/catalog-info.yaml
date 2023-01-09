@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: ${{ values.name | dump }}
+  namespace: ${{ values.namespace | dump }}
+  description: ${{ values.description | dump }}
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - cnp
+    - config
+    - yaml
+spec:
+  type: cluster-config
+  owner: user:mbowen
+  system: cnp
